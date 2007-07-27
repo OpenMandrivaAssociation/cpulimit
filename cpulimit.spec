@@ -10,6 +10,7 @@ URL:		http://cpulimit.sourceforge.net/
 Source:		cpulimit-%{version}.tar.gz
 License:	GPL
 Group:		Monitoring
+BuildRoot:	%{_tmppath}/%{name}-root
 %description
 cpulimit is a simple program that attempts to limit the cpu usage of a
 process (expressed in percentage, not in cpu time). This is useful to
