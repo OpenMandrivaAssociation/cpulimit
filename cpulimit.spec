@@ -25,8 +25,11 @@ system load, dynamically and quickly.
 %make
 
 %install
-%{__mkdir} -p %{buildroot}%{_bindir}
-%{__cp} -p %{name} %{buildroot}%{_bindir}/%{name}
+%{__mkdir} -p $RPM_BUILD_ROOT%{_bindir}
+%{__cp} -p %{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
+
+%clean
+%{__rm} -Rf $RPM_BUILD_ROOT
 
 %files
 %{_bindir}/%{name}
