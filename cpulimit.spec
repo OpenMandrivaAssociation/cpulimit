@@ -1,6 +1,6 @@
 %define name	cpulimit
 %define version	1.1
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name:		%name
 Version:	%version
