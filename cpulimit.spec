@@ -1,14 +1,15 @@
 %define name	cpulimit
 %define version	1.1
-%define release %mkrel 4
+%define release %mkrel 5
+%define svnrel r35
 
 Name:		%name
 Version:	%version
 Release:	%release
 Summary:	CPU Usage Limiter
 URL:		http://cpulimit.sourceforge.net/
-Source:		cpulimit-%{version}.tar.gz
-License:	GPL
+Source:		cpulimit-%{version}.%{svnrel}.tar.gz
+License:	GPLv2+
 Group:		Monitoring
 BuildRoot:	%{_tmppath}/%{name}-root
 %description
