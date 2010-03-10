@@ -1,6 +1,6 @@
 %define name	cpulimit
 %define version	1.1
-%define release %mkrel 5
+%define release %mkrel 6
 %define svnrel r35
 
 Name:		%name
@@ -27,6 +27,7 @@ system load, dynamically and quickly.
 %make
 
 %install
+%{__rm} -Rf $RPM_BUILD_ROOT
 %{__mkdir} -p $RPM_BUILD_ROOT%{_bindir}
 %{__cp} -p %{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
 
@@ -34,4 +35,6 @@ system load, dynamically and quickly.
 %{__rm} -Rf $RPM_BUILD_ROOT
 
 %files
+%defattr(-,root,root,-)
+%doc README
 %{_bindir}/%{name}
