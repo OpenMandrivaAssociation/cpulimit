@@ -1,6 +1,6 @@
 %define name	cpulimit
 %define version	1.1
-%define release %mkrel 6
+%define release %mkrel 7
 %define svnrel r35
 
 Name:		%name
