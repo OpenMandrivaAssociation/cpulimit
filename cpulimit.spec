@@ -38,3 +38,38 @@ system load, dynamically and quickly.
 %defattr(-,root,root,-)
 %doc README
 %{_bindir}/%{name}
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1-7mdv2011.0
++ Revision: 610170
+- rebuild
+
+* Wed Mar 10 2010 Michael Scherer <misc@mandriva.org> 1.1-6mdv2010.1
++ Revision: 517594
+- add a README file in documentation
+
+* Wed Nov 11 2009 Stéphane Téletchéa <steletch@mandriva.org> 1.1-5mdv2010.1
++ Revision: 464398
+- Update to latest svn release, should fix segfault issues
+- Fixed license tag
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 1.1-4mdv2010.0
++ Revision: 425249
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.1-3mdv2009.0
++ Revision: 243724
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.1-1mdv2008.1
++ Revision: 136345
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Fri Jul 27 2007 Nicolas Vigier <nvigier@mandriva.com> 1.1-1mdv2008.0
++ Revision: 56274
+- Import cpulimit
+
