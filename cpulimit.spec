@@ -4,7 +4,7 @@
 
 Name:		cpulimit
 Version:	1.1
-Release:	8
+Release:	9
 Summary:	CPU Usage Limiter
 URL:		http://cpulimit.sourceforge.net/
 Source0:	cpulimit-%{version}.%{svnrel}.tar.gz
